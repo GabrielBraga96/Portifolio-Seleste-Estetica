@@ -5,6 +5,40 @@
 }
 
 body {
-background: #EEAECA;
-background: radial-gradient(circle,rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    background: #EEAECA;
+    background: radial-gradient(circle,rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+h1 {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 50px;
+    margin: auto 0;
+}
+
+.fotos-cima {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.fotos-baixo {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.video {
+    align-items: center;
+    justify-content: center;
+}
+
+iframe {
+    margin: 0 auto;
 }
